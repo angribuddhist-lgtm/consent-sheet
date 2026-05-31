@@ -86,7 +86,7 @@
           "label": "Partner"
         }
       ],
-      "column": 4,
+      "column": 3,
       "order": 2
     },
     {
@@ -305,7 +305,7 @@
           "label": "As Sub"
         }
       ],
-      "column": 4,
+      "column": 3,
       "order": 1
     },
     {
@@ -376,8 +376,8 @@
           "label": "Target"
         }
       ],
-      "column": 3,
-      "order": 2
+      "column": 4,
+      "order": 1
     },
     {
       "id": "cat_kfdva2qh0x",
@@ -513,8 +513,8 @@
           "label": "Receiving"
         }
       ],
-      "column": 3,
-      "order": 3
+      "column": 4,
+      "order": 2
     },
     {
       "id": "cat_zou5lvp3wy",
@@ -550,12 +550,6 @@
           "defaultState": null
         },
         {
-          "id": "itm_vzo60je3ub",
-          "label": "Feminization",
-          "description": "Roleplay involving the adoption or imposition of traditionally feminine appearance, behaviors, or roles",
-          "defaultState": null
-        },
-        {
           "id": "itm_wclrqngjw1",
           "label": "Impregnation",
           "description": "Roleplay involving the possibility, intent, or fantasy of causing pregnancy",
@@ -565,24 +559,6 @@
           "id": "itm_h2f63b23tqkj",
           "label": "Milking",
           "description": "Roleplay focused on extracting or collecting bodily fluids through stimulation",
-          "defaultState": null
-        },
-        {
-          "id": "itm_a520n2iqid",
-          "label": "Pregnancy",
-          "description": "Roleplay involving pregnant characters or pregnancy-related themes",
-          "defaultState": null
-        },
-        {
-          "id": "itm_g3lkvd48tq4i",
-          "label": "Public Sex",
-          "description": "Sexual activity occurring in public or semi-public settings",
-          "defaultState": null
-        },
-        {
-          "id": "itm_eewbf1dnhds8",
-          "label": "Size Difference",
-          "description": "Roleplay involving a notable difference in size, height, or scale between characters, often referring to genitalia size differences",
           "defaultState": null
         },
         {
@@ -602,8 +578,8 @@
           "label": "Receiving"
         }
       ],
-      "column": 3,
-      "order": 1
+      "column": 4,
+      "order": 3
     },
     {
       "id": "cat_6zl33sgoi2",
@@ -709,7 +685,7 @@
           "label": "Receiving"
         }
       ],
-      "column": 4,
+      "column": 3,
       "order": 3
     },
     {
@@ -962,6 +938,48 @@
           "defaultState": null
         }
       ]
+    },
+    {
+      "id": "cat_tpldofo2956o",
+      "name": "Fetishes - Misc",
+      "modeLabels": [
+        "Self"
+      ],
+      "modes": [
+        {
+          "id": "mode_v0fokoqf956o",
+          "label": "Self"
+        }
+      ],
+      "layout": "single",
+      "column": 4,
+      "order": 4,
+      "items": [
+        {
+          "id": "itm_eouv4df19o7o",
+          "label": "Feminization",
+          "description": "Roleplay involving the adoption or imposition of traditionally feminine appearance, behaviors, or roles",
+          "defaultState": null
+        },
+        {
+          "id": "itm_di1n8kei9okk",
+          "label": "Pregnancy",
+          "description": "Roleplay involving pregnant characters or pregnancy-related themes",
+          "defaultState": null
+        },
+        {
+          "id": "itm_0ir2g82n9oxo",
+          "label": "Public Sex",
+          "description": "Sexual activity occurring in public or semi-public settings",
+          "defaultState": null
+        },
+        {
+          "id": "itm_jtrsmdmi9p72",
+          "label": "Size Difference",
+          "description": "Roleplay involving a notable difference in size, height, or scale between characters, often referring to genitalia size differences",
+          "defaultState": null
+        }
+      ]
     }
   ],
   "displaySettings": {
@@ -984,6 +1002,6 @@
     "bodyTextPaddingLeftPx": 1
   },
   "projectVersion": "3.12.4-tooltip-size",
-  "projectRevision": 181,
-  "generatedAt": "2026-05-31T18:24:30.039Z"
+  "projectRevision": 184,
+  "generatedAt": "2026-05-31T18:40:52.997Z"
 }
