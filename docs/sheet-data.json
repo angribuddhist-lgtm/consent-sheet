@@ -172,7 +172,7 @@
         {
           "id": "itm_ahwmws3c78",
           "label": "Deep Throat",
-          "description": "Oral penetration that extends into the throat\nGiving = you bring the cock\nReceiving = you supply the throat",
+          "description": "Oral penetration that extends into the throat\n\\nGiving = you bring the cock\n\\nReceiving = you supply the throat",
           "defaultState": null
         },
         {
@@ -1002,6 +1002,6 @@
     "bodyTextPaddingLeftPx": 1
   },
   "projectVersion": "3.12.4-tooltip-size",
-  "projectRevision": 171,
-  "generatedAt": "2026-05-31T17:24:05.648Z"
+  "projectRevision": 172,
+  "generatedAt": "2026-05-31T17:26:41.002Z"
 }
