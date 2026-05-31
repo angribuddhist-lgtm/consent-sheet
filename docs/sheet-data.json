@@ -312,8 +312,8 @@
       "id": "cat_010770w52o",
       "name": "Non-consent",
       "modeLabels": [
-        "Aggressor",
-        "Target"
+        "As Aggressor",
+        "As Target"
       ],
       "layout": "double",
       "items": [
@@ -369,11 +369,11 @@
       "modes": [
         {
           "id": "mode_e98kziomeh",
-          "label": "Aggressor"
+          "label": "As Aggressor"
         },
         {
           "id": "mode_2mvtwl9m2q",
-          "label": "Target"
+          "label": "As Target"
         }
       ],
       "column": 4,
@@ -383,13 +383,13 @@
       "id": "cat_kfdva2qh0x",
       "name": "Parnter RP",
       "modeLabels": [
-        "Subject"
+        "Type"
       ],
       "layout": "auto",
       "items": [
         {
           "id": "itm_5k6w28scsy",
-          "label": "Bestiality Non-Sentient",
+          "label": "Bestiality - Non-Sentient",
           "description": "Roleplay involving sexual interactions between a sapient character and a non-sapient animal, or a player portraying a non-sapient animal engaged by a sapient character",
           "defaultState": null
         },
@@ -421,7 +421,7 @@
       "modes": [
         {
           "id": "mode_7y1gimc9ih",
-          "label": "Subject"
+          "label": "Type"
         }
       ],
       "column": 2,
@@ -431,7 +431,7 @@
       "id": "cat_kg6ni59jh1",
       "name": "Fluids",
       "modeLabels": [
-        "Subject"
+        "Type"
       ],
       "layout": "auto",
       "items": [
@@ -469,7 +469,7 @@
       "modes": [
         {
           "id": "mode_0unyakpfyn",
-          "label": "Subject"
+          "label": "Type"
         }
       ],
       "column": 2,
@@ -774,31 +774,25 @@
     },
     {
       "id": "cat_fp549ch8rk1s",
-      "name": "RP Themes / Types",
+      "name": "RP Themes",
       "modeLabels": [
-        "Aggressor",
-        "Target"
+        "As Aggressor",
+        "As Target"
       ],
       "modes": [
         {
           "id": "mode_0byto970rk1s",
-          "label": "Aggressor"
+          "label": "As Aggressor"
         },
         {
           "id": "mode_1fsjgk34kndj",
-          "label": "Target"
+          "label": "As Target"
         }
       ],
       "layout": "double",
       "column": 1,
       "order": 3,
       "items": [
-        {
-          "id": "itm_i9o8l4tpgks0",
-          "label": "Age Gap",
-          "description": "Roleplay involving characters with a significant age difference",
-          "defaultState": null
-        },
         {
           "id": "itm_1wjaitulv0l5",
           "label": "Capture - Long",
@@ -956,6 +950,12 @@
       "order": 4,
       "items": [
         {
+          "id": "itm_i9o8l4tpgks0",
+          "label": "Age Gap",
+          "description": "Roleplay involving characters with a significant age difference",
+          "defaultState": null
+        },
+        {
           "id": "itm_eouv4df19o7o",
           "label": "Feminization",
           "description": "Roleplay involving the adoption or imposition of traditionally feminine appearance, behaviors, or roles",
@@ -987,21 +987,21 @@
     "headerTextPt": 11.5,
     "bodyTextPt": 12,
     "modeLabelTextPt": 10,
-    "columnWidthPx": 330,
-    "columnGapPx": 45,
+    "columnWidthPx": 370,
+    "columnGapPx": 30,
     "outerColumnPaddingPx": 5,
     "categoryGapPx": 25,
     "headerHeightPx": 26,
     "bodyLineHeightPx": 26,
     "pipSizePx": 12,
-    "pairedPipGapPx": 16,
+    "pairedPipGapPx": 20,
     "titlebarPaddingTopPx": 20,
     "titlebarPaddingBottomPx": 30,
-    "pipGapPx": 4,
+    "pipGapPx": 5,
     "categoryHeaderTitleColor": "#A65EA6",
     "bodyTextPaddingLeftPx": 1
   },
-  "projectVersion": "3.12.4-tooltip-size",
-  "projectRevision": 184,
-  "generatedAt": "2026-05-31T18:40:52.997Z"
+  "projectVersion": "3.12.5-transfer-items",
+  "projectRevision": 198,
+  "generatedAt": "2026-05-31T21:13:09.146Z"
 }
