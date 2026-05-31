@@ -44,10 +44,18 @@ async function init() {
 
 function renderSheet(data) {
   applyDisplaySettings(data);
-  titleEl.textContent = data.title || 'Consent Sheet';
+  updateSheetTitle();
   const displayStates = getDisplayStates(data.states || []);
   renderLegend(displayStates);
   renderPackedCategories(data.categories || [], displayStates);
+}
+
+function updateSheetTitle() {
+  const baseTitle = sheetData?.title || 'Consent Sheet';
+  const profileName = getActiveProfile()?.name?.trim();
+  const fullTitle = profileName ? `${baseTitle} - ${profileName}` : baseTitle;
+  titleEl.textContent = fullTitle;
+  document.title = fullTitle;
 }
 
 function getDisplayStates(states) {
@@ -306,6 +314,7 @@ function renderProfileSelect() {
     profileSelect.appendChild(option);
   }
   deleteProfileBtn.disabled = profileStore.profiles.length <= 1;
+  updateSheetTitle();
 }
 
 function createProfile(name, selections = {}) {
@@ -386,9 +395,7 @@ async function importProfileFile(event) {
 
     const result = sanitizeSelections(imported.selections);
     createProfile(name, result.selections);
-
-    const ignored = result.ignoredCount > 0 ? ` Ignored ${result.ignoredCount} unknown saved value(s).` : '';
-    setStatus(`Imported "${name}".${ignored}`, result.ignoredCount > 0 ? 'warn' : 'ok');
+    setStatus('', '');
   } catch (error) {
     alert(`Could not import that file: ${error.message}`);
   }
@@ -718,6 +725,7 @@ function escapeHtml(value) {
 profileSelect.addEventListener('change', () => {
   profileStore.activeProfileId = profileSelect.value;
   saveProfileStore();
+  updateSheetTitle();
   renderPackedCategories(sheetData.categories || []);
 });
 
@@ -735,6 +743,7 @@ renameProfileBtn.addEventListener('click', () => {
   touchActiveProfile();
   saveProfileStore();
   renderProfileSelect();
+  updateSheetTitle();
 });
 
 deleteProfileBtn.addEventListener('click', () => {
@@ -746,6 +755,7 @@ deleteProfileBtn.addEventListener('click', () => {
   profileStore.activeProfileId = profileStore.profiles[0].id;
   saveProfileStore();
   renderProfileSelect();
+  updateSheetTitle();
   renderPackedCategories(sheetData.categories || []);
 });
 

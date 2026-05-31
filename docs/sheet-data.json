@@ -389,13 +389,13 @@
       "items": [
         {
           "id": "itm_5k6w28scsy",
-          "label": "Bestiality",
+          "label": "Bestiality Non-Sentient",
           "description": "Roleplay involving sexual interactions between a sapient character and a non-sapient animal, or a player portraying a non-sapient animal engaged by a sapient character",
           "defaultState": null
         },
         {
           "id": "itm_3kcmo2hqnmsq",
-          "label": "Furry",
+          "label": "Bestiality - Sentient",
           "description": "Roleplay involving anthropomorphic animal characters with human-like traits, intelligence, and behavior",
           "defaultState": null
         },
@@ -403,12 +403,6 @@
           "id": "itm_op62zuiwet",
           "label": "Incest",
           "description": "Roleplay involving romantic, sexual, or intimate interactions between related characters",
-          "defaultState": null
-        },
-        {
-          "id": "itm_raclt8isgj",
-          "label": "Interracial",
-          "description": "Roleplay involving characters of different races, species, cultures, or ethnic backgrounds engaging in romantic, social, or sexual interactions",
           "defaultState": null
         },
         {
@@ -538,12 +532,6 @@
           "defaultState": null
         },
         {
-          "id": "itm_2sioctbw3un3",
-          "label": "Clothed Sex",
-          "description": "Sexual activity while one or more participants remain partially or fully clothed",
-          "defaultState": null
-        },
-        {
           "id": "itm_5h3ds8qic5",
           "label": "Cuckolding",
           "description": "Roleplay involving a character deriving emotional or sexual satisfaction from their partner's intimacy with another character",
@@ -553,12 +541,6 @@
           "id": "itm_ffdk84j9j29f",
           "label": "Edging",
           "description": "Delaying climax through prolonged stimulation and denial",
-          "defaultState": null
-        },
-        {
-          "id": "itm_tdvm1kpekpjq",
-          "label": "Exhibitionism",
-          "description": "Roleplay involving being seen, exposed, or observed by others, particularly while performing sexual acts",
           "defaultState": null
         },
         {
@@ -586,12 +568,6 @@
           "defaultState": null
         },
         {
-          "id": "itm_fuoriemm3wfn",
-          "label": "Outfits / Costumes",
-          "description": "Roleplay involving themed clothing, uniforms, fetishwear, or costumes",
-          "defaultState": null
-        },
-        {
           "id": "itm_a520n2iqid",
           "label": "Pregnancy",
           "description": "Roleplay involving pregnant characters or pregnancy-related themes",
@@ -613,12 +589,6 @@
           "id": "itm_xpe3qsf0j2o8",
           "label": "Teasing",
           "description": "Prolonged arousal through anticipation, temptation, denial, or flirtation",
-          "defaultState": null
-        },
-        {
-          "id": "itm_yy7vitrrhe5z",
-          "label": "Voyeurism",
-          "description": "Roleplay involving deriving enjoyment from observing others performing sexual acts",
           "defaultState": null
         }
       ],
@@ -978,6 +948,18 @@
           "label": "Orgies",
           "description": "Roleplay involving multiple characters participating together in a shared group scene",
           "defaultState": null
+        },
+        {
+          "id": "itm_u7bb620y9aif",
+          "label": "Exhibitionism",
+          "description": "Roleplay involving being seen, exposed, or observed by others, particularly while performing sexual acts",
+          "defaultState": null
+        },
+        {
+          "id": "itm_l424909j9zhy",
+          "label": "Voyeurism",
+          "description": "Roleplay involving deriving enjoyment from observing others performing sexual acts",
+          "defaultState": null
         }
       ]
     }
@@ -1002,6 +984,6 @@
     "bodyTextPaddingLeftPx": 1
   },
   "projectVersion": "3.12.4-tooltip-size",
-  "projectRevision": 173,
-  "generatedAt": "2026-05-31T17:32:17.240Z"
+  "projectRevision": 176,
+  "generatedAt": "2026-05-31T18:07:54.852Z"
 }
