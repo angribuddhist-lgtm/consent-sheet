@@ -966,16 +966,16 @@
   ],
   "displaySettings": {
     "columnCount": 4,
-    "headerTextPt": 9.5,
-    "bodyTextPt": 11,
+    "headerTextPt": 11.5,
+    "bodyTextPt": 12,
     "modeLabelTextPt": 10,
     "columnWidthPx": 330,
     "columnGapPx": 45,
     "outerColumnPaddingPx": 5,
     "categoryGapPx": 25,
-    "headerHeightPx": 20,
-    "bodyLineHeightPx": 22,
-    "pipSizePx": 11,
+    "headerHeightPx": 26,
+    "bodyLineHeightPx": 26,
+    "pipSizePx": 12,
     "pairedPipGapPx": 16,
     "titlebarPaddingTopPx": 20,
     "titlebarPaddingBottomPx": 30,
@@ -984,6 +984,6 @@
     "bodyTextPaddingLeftPx": 1
   },
   "projectVersion": "3.12.4-tooltip-size",
-  "projectRevision": 176,
-  "generatedAt": "2026-05-31T18:07:54.852Z"
+  "projectRevision": 181,
+  "generatedAt": "2026-05-31T18:24:30.039Z"
 }
