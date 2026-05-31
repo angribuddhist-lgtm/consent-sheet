@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, max-age=0" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Consent Sheet</title>
+  <link rel="stylesheet" href="./style.css?v=3-tooltip-size" />
+</head>
+<body>
+  <div class="app-shell" data-mode="normal" data-density="0">
+    <header class="topbar" aria-label="Sheet header">
+      <div class="title-block">
+        <h1 id="sheetTitle">Consent Sheet</h1>
+      </div>
+
+      <section class="legend" id="legend" aria-label="Preference legend"></section>
+
+      <div class="toolbar" id="toolbar" aria-label="Sheet controls">
+        <label class="profile-control">
+          <span>Profile</span>
+          <select id="profileSelect"></select>
+        </label>
+        <button type="button" id="newProfileBtn">New</button>
+        <button type="button" id="renameProfileBtn">Rename</button>
+        <button type="button" id="deleteProfileBtn" class="secondary">Delete</button>
+        <button type="button" id="resetBtn" class="secondary">Reset</button>
+        <button type="button" id="exportBtn">Export</button>
+        <button type="button" id="importBtn">Import</button>
+        <button type="button" id="screenshotBtn">Screenshot Mode</button>
+        <input id="importInput" type="file" accept="application/json,.json" hidden />
+      </div>
+    </header>
+
+    <main>
+      <div id="status" class="status" role="status">Loading sheet...</div>
+      <section id="sheetGrid" class="sheet-grid" aria-label="Kink preference categories"></section>
+    </main>
+  </div>
+
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+
+  <script src="./app.js?v=3-tooltip-size"></script>
+</body>
+</html>

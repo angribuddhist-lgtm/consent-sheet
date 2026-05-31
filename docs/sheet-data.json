@@ -1,0 +1,1007 @@
+{
+  "schemaVersion": "1.1.0",
+  "title": "Consent Sheet",
+  "audience": "Adults only; consensual fantasy/preference checklist.",
+  "states": [
+    {
+      "id": "favorite",
+      "label": "Favorite",
+      "color": "#6DB5FE"
+    },
+    {
+      "id": "like",
+      "label": "Like",
+      "color": "#23FD22"
+    },
+    {
+      "id": "indifferent",
+      "label": "Indifferent",
+      "color": "#FDFD6B"
+    },
+    {
+      "id": "maybe",
+      "label": "Maybe",
+      "color": "#DB6C00"
+    },
+    {
+      "id": "limit",
+      "label": "Limit",
+      "color": "#920000"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_p9y0ixwxna",
+      "name": "Restrictive",
+      "modeLabels": [
+        "Self",
+        "Partner"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_3l953utukz",
+          "label": "Bondage (Light)",
+          "description": "Roleplay involving mild restraint, limited immobilization, or generally comfortable restraint positions",
+          "defaultState": null
+        },
+        {
+          "id": "itm_cja6gfdyn2",
+          "label": "Bondage (Heavy)",
+          "description": "Roleplay involving extensive restraint, significant immobilization, prolonged confinement, or physically demanding positions",
+          "defaultState": null
+        },
+        {
+          "id": "itm_67jvnycz7a",
+          "label": "Chastity",
+          "description": "Roleplay involving restricted sexual access, abstinence, or the use of chastity devices",
+          "defaultState": null
+        },
+        {
+          "id": "itm_nzi5dv6tt2",
+          "label": "Collar / Leash",
+          "description": "Roleplay involving collars, leashes, or other symbols of ownership, control, or affiliation",
+          "defaultState": null
+        },
+        {
+          "id": "itm_2chdldwifm",
+          "label": "Encasement",
+          "description": "Roleplay involving full-body containment, wrapping, or enclosure within restrictive garments or equipment",
+          "defaultState": null
+        },
+        {
+          "id": "itm_xnuha3nynz",
+          "label": "Gagging",
+          "description": "Roleplay involving the restriction of speech through the use of gags or other mouth-obstructing devices",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_q1d8na1ffg",
+          "label": "Self"
+        },
+        {
+          "id": "mode_jqq7j48bmj",
+          "label": "Partner"
+        }
+      ],
+      "column": 4,
+      "order": 2
+    },
+    {
+      "id": "cat_uabjjs91p4",
+      "name": "Gender",
+      "modeLabels": [
+        "I am a",
+        "Looking for"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_9hmi03fhbk",
+          "label": "Female",
+          "description": "Characters who identify and present as female",
+          "defaultState": null
+        },
+        {
+          "id": "itm_sq8j8u0t1o",
+          "label": "Femboy",
+          "description": "Male or masculine-identifying characters who present with traditionally feminine appearance, mannerisms, or expression",
+          "defaultState": null
+        },
+        {
+          "id": "itm_qd1nvrk2aw",
+          "label": "Futanari",
+          "description": "Characters possessing both male and female sexual characteristics",
+          "defaultState": null
+        },
+        {
+          "id": "itm_rzbqlysxm9",
+          "label": "Gender-Fluid",
+          "description": "Characters whose gender identity or expression may change over time or vary by circumstance",
+          "defaultState": null
+        },
+        {
+          "id": "itm_unlqqlvbc1",
+          "label": "Male",
+          "description": "Characters who identify and present as male",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_wd42xlvca7",
+          "label": "I am a"
+        },
+        {
+          "id": "mode_e5gfp3udicml",
+          "label": "Looking for"
+        }
+      ],
+      "column": 1,
+      "order": 1
+    },
+    {
+      "id": "cat_dzv94c42cr",
+      "name": "Sexual Acts",
+      "modeLabels": [
+        "Giving",
+        "Receiving"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_8ytngfq4fgv5",
+          "label": "Anal",
+          "description": "Sexual activity involving anal penetration",
+          "defaultState": null
+        },
+        {
+          "id": "itm_oeinb9ivxq",
+          "label": "Blowjob",
+          "description": "Oral stimulation of male genitals",
+          "defaultState": null
+        },
+        {
+          "id": "itm_2eizvzinsj",
+          "label": "Cunnilingus",
+          "description": "Oral stimulation of female genitals",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ahwmws3c78",
+          "label": "Deep Throat",
+          "description": "Oral penetration that extends into the throat",
+          "defaultState": null
+        },
+        {
+          "id": "itm_0a8j877xfhiu",
+          "label": "Double Penetration",
+          "description": "Simultaneous penetration involving two points of entry",
+          "defaultState": null
+        },
+        {
+          "id": "itm_bw6bjd9v0o",
+          "label": "Facials",
+          "description": "Ejaculation onto a partner's face",
+          "defaultState": null
+        },
+        {
+          "id": "itm_us5rz5bzuj3m",
+          "label": "Fisting",
+          "description": "Penetration using an entire hand",
+          "defaultState": null
+        },
+        {
+          "id": "itm_0hauohb4rx",
+          "label": "Handjob / Fingering",
+          "description": "Manual stimulation using hands or fingers",
+          "defaultState": null
+        },
+        {
+          "id": "itm_vjpnxhxqlrs9",
+          "label": "Rimming",
+          "description": "Oral stimulation of the anus",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3fonsvfzr5",
+          "label": "Swallowing",
+          "description": "Consuming semen after oral sex",
+          "defaultState": null
+        },
+        {
+          "id": "itm_eaeqfvt3ns2d",
+          "label": "Toys",
+          "description": "The use of sexual aids, including penetrating, vibrating, or stimulating devices",
+          "defaultState": null
+        },
+        {
+          "id": "itm_2dfelvtfhcfj",
+          "label": "Vaginal",
+          "description": "Sexual activity involving vaginal penetration",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_4vnz42vj80",
+          "label": "Giving"
+        },
+        {
+          "id": "mode_9fsp8r28bv",
+          "label": "Receiving"
+        }
+      ],
+      "column": 2,
+      "order": 3
+    },
+    {
+      "id": "cat_5c0gspixxl",
+      "name": "Domination",
+      "modeLabels": [
+        "As Dom",
+        "As Sub"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_rnc9utk6sg",
+          "label": "Begging",
+          "description": "Roleplay involving pleading, requesting permission, or asking for relief, attention, or rewards",
+          "defaultState": null
+        },
+        {
+          "id": "itm_hrwzemu24y",
+          "label": "Discipline",
+          "description": "Roleplay involving rules, correction, rewards, punishments, or behavioral training",
+          "defaultState": null
+        },
+        {
+          "id": "itm_w9x9p33jts",
+          "label": "Domestic Servitude",
+          "description": "Roleplay centered around household duties, personal service, or caretaker roles",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3nvotzdoao",
+          "label": "Orgasm Control",
+          "description": "Roleplay where one character controls if, when, or how another character reaches climax",
+          "defaultState": null
+        },
+        {
+          "id": "itm_lyqzgzfhuk",
+          "label": "Orgasm Denial",
+          "description": "Roleplay involving delayed, restricted, or denied climax",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ztq4k0k4vz",
+          "label": "Orgasm - Forced",
+          "description": "Roleplay involving a character being brought to climax despite resistance, reluctance, or lack of control within the agreed dynamic",
+          "defaultState": null
+        },
+        {
+          "id": "itm_q64wb5kggb",
+          "label": "Pet Play",
+          "description": "Roleplay where a character adopts the behaviors, mindset, or role of an animal or pet.",
+          "defaultState": null
+        },
+        {
+          "id": "itm_60pcsy7spo",
+          "label": "Power Exchange",
+          "description": "Roleplay involving the voluntary transfer or sharing of authority, control, or service between characters",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_gvcrvc5ss5",
+          "label": "As Dom"
+        },
+        {
+          "id": "mode_2a5qocr22j",
+          "label": "As Sub"
+        }
+      ],
+      "column": 4,
+      "order": 1
+    },
+    {
+      "id": "cat_010770w52o",
+      "name": "Non-consent",
+      "modeLabels": [
+        "Aggressor",
+        "Target"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_8okzwqfqfx",
+          "label": "Alcohol",
+          "description": "Roleplay involving alcohol use that affects judgment, awareness, inhibition, or consent",
+          "defaultState": null
+        },
+        {
+          "id": "itm_kg1zr66yir",
+          "label": "Drugs",
+          "description": "Roleplay involving substances that alter judgment, awareness, inhibition, or consent",
+          "defaultState": null
+        },
+        {
+          "id": "itm_60ahuoc0lm",
+          "label": "Dubious Consent",
+          "description": "Roleplay where consent is influenced by pressure, coercion, manipulation, blackmail, or unequal circumstances",
+          "defaultState": null
+        },
+        {
+          "id": "itm_focvdvr5qjne",
+          "label": "Free Use - Unwilling",
+          "description": "Roleplay where a character is treated as sexually available without their in-character consent",
+          "defaultState": null
+        },
+        {
+          "id": "itm_cyac30om7s",
+          "label": "Kidnapping",
+          "description": "Roleplay involving abduction, captivity, confinement, or imprisonment",
+          "defaultState": null
+        },
+        {
+          "id": "itm_lk2cvubedzil",
+          "label": "Mind Control",
+          "description": "Roleplay involving the manipulation, alteration, or removal of a character's free will, thoughts, or decisions",
+          "defaultState": null
+        },
+        {
+          "id": "itm_97sv04cizg",
+          "label": "Non-con",
+          "description": "Roleplay involving sexual activity that occurs against a character's will",
+          "defaultState": null
+        },
+        {
+          "id": "itm_lfuxfjc1v8",
+          "label": "Sleep Play",
+          "description": "Roleplay involving sexual activity with a sleeping, unconscious, or otherwise unaware character",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_e98kziomeh",
+          "label": "Aggressor"
+        },
+        {
+          "id": "mode_2mvtwl9m2q",
+          "label": "Target"
+        }
+      ],
+      "column": 3,
+      "order": 2
+    },
+    {
+      "id": "cat_kfdva2qh0x",
+      "name": "Parnter RP",
+      "modeLabels": [
+        "Subject"
+      ],
+      "layout": "auto",
+      "items": [
+        {
+          "id": "itm_5k6w28scsy",
+          "label": "Bestiality",
+          "description": "Roleplay involving sexual interactions between a sapient character and a non-sapient animal, or a player portraying a non-sapient animal engaged by a sapient character",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3kcmo2hqnmsq",
+          "label": "Furry",
+          "description": "Roleplay involving anthropomorphic animal characters with human-like traits, intelligence, and behavior",
+          "defaultState": null
+        },
+        {
+          "id": "itm_op62zuiwet",
+          "label": "Incest",
+          "description": "Roleplay involving romantic, sexual, or intimate interactions between related characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_raclt8isgj",
+          "label": "Interracial",
+          "description": "Roleplay involving characters of different races, species, cultures, or ethnic backgrounds engaging in romantic, social, or sexual interactions",
+          "defaultState": null
+        },
+        {
+          "id": "itm_i0v087elnnee",
+          "label": "Monsters",
+          "description": "Roleplay involving monsters, extraterrestrials, eldritch beings, or other non-human and unusual characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_x691yw1dnosm",
+          "label": "Tentacles",
+          "description": "Roleplay involving sentient or independently animated tentacles or tentacle-like appendages, often featuring restraint, penetration, or multiple points of contact",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_7y1gimc9ih",
+          "label": "Subject"
+        }
+      ],
+      "column": 2,
+      "order": 1
+    },
+    {
+      "id": "cat_kg6ni59jh1",
+      "name": "Fluids",
+      "modeLabels": [
+        "Subject"
+      ],
+      "layout": "auto",
+      "items": [
+        {
+          "id": "itm_bkflblarns",
+          "label": "Blood",
+          "description": "Roleplay involving blood, bloodletting, bleeding, or blood-related themes",
+          "defaultState": null
+        },
+        {
+          "id": "itm_hi7jvzmut1",
+          "label": "Cum Play",
+          "description": "Roleplay involving semen as a central element of the scene or interaction",
+          "defaultState": null
+        },
+        {
+          "id": "itm_o57yry7k5i",
+          "label": "Lactation",
+          "description": "Roleplay involving the production, sharing, or consumption of breast milk",
+          "defaultState": null
+        },
+        {
+          "id": "itm_hb887fgui1",
+          "label": "Scat",
+          "description": "Roleplay involving fecal matter or related bodily functions",
+          "defaultState": null
+        },
+        {
+          "id": "itm_5z4pcony13",
+          "label": "Watersports",
+          "description": "Roleplay involving urine or urination-related themes",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_0unyakpfyn",
+          "label": "Subject"
+        }
+      ],
+      "column": 2,
+      "order": 4
+    },
+    {
+      "id": "cat_dzzm63vypm",
+      "name": "Degradation",
+      "modeLabels": [
+        "Giving",
+        "Receiving"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_tc57efyzvx",
+          "label": "Free Use - Willing",
+          "description": "Roleplay where a character willingly permits others broad or unrestricted sexual access",
+          "defaultState": null
+        },
+        {
+          "id": "itm_v5nbet7l5l",
+          "label": "Humiliation",
+          "description": "Roleplay involving embarrassment, shame, ridicule, or public exposure as part of the scene or dynamic",
+          "defaultState": null
+        },
+        {
+          "id": "itm_f5ncypmai1",
+          "label": "Name Calling",
+          "description": "Roleplay involving insults, degrading labels, or derogatory language directed at a character",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_4dh22x454h",
+          "label": "Giving"
+        },
+        {
+          "id": "mode_ii7lmbvqg0",
+          "label": "Receiving"
+        }
+      ],
+      "column": 3,
+      "order": 3
+    },
+    {
+      "id": "cat_zou5lvp3wy",
+      "name": "Fetishes",
+      "modeLabels": [
+        "Giving",
+        "Receiving"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_yp6jy3rlbstg",
+          "label": "Age Gap",
+          "description": "Roleplay involving characters with a significant age difference",
+          "defaultState": null
+        },
+        {
+          "id": "itm_sajath4d2l",
+          "label": "Breath Play",
+          "description": "Roleplay involving restriction, control, or manipulation of breathing",
+          "defaultState": null
+        },
+        {
+          "id": "itm_2sioctbw3un3",
+          "label": "Clothed Sex",
+          "description": "Sexual activity while one or more participants remain partially or fully clothed",
+          "defaultState": null
+        },
+        {
+          "id": "itm_5h3ds8qic5",
+          "label": "Cuckolding",
+          "description": "Roleplay involving a character deriving emotional or sexual satisfaction from their partner's intimacy with another character",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ffdk84j9j29f",
+          "label": "Edging",
+          "description": "Delaying climax through prolonged stimulation and denial",
+          "defaultState": null
+        },
+        {
+          "id": "itm_tdvm1kpekpjq",
+          "label": "Exhibitionism",
+          "description": "Roleplay involving being seen, exposed, or observed by others, particularly while performing sexual acts",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3g0c42kjtpqj",
+          "label": "Exotic Cocks",
+          "description": "Roleplay involving unusual, non-human, or fantastical genital anatomy",
+          "defaultState": null
+        },
+        {
+          "id": "itm_vzo60je3ub",
+          "label": "Feminization",
+          "description": "Roleplay involving the adoption or imposition of traditionally feminine appearance, behaviors, or roles",
+          "defaultState": null
+        },
+        {
+          "id": "itm_wclrqngjw1",
+          "label": "Impregnation",
+          "description": "Roleplay involving the possibility, intent, or fantasy of causing pregnancy",
+          "defaultState": null
+        },
+        {
+          "id": "itm_h2f63b23tqkj",
+          "label": "Milking",
+          "description": "Roleplay focused on extracting or collecting bodily fluids through stimulation",
+          "defaultState": null
+        },
+        {
+          "id": "itm_fuoriemm3wfn",
+          "label": "Outfits / Costumes",
+          "description": "Roleplay involving themed clothing, uniforms, fetishwear, or costumes",
+          "defaultState": null
+        },
+        {
+          "id": "itm_a520n2iqid",
+          "label": "Pregnancy",
+          "description": "Roleplay involving pregnant characters or pregnancy-related themes",
+          "defaultState": null
+        },
+        {
+          "id": "itm_g3lkvd48tq4i",
+          "label": "Public Sex",
+          "description": "Sexual activity occurring in public or semi-public settings",
+          "defaultState": null
+        },
+        {
+          "id": "itm_eewbf1dnhds8",
+          "label": "Size Difference",
+          "description": "Roleplay involving a notable difference in size, height, or scale between characters, often referring to genitalia size differences",
+          "defaultState": null
+        },
+        {
+          "id": "itm_xpe3qsf0j2o8",
+          "label": "Teasing",
+          "description": "Prolonged arousal through anticipation, temptation, denial, or flirtation",
+          "defaultState": null
+        },
+        {
+          "id": "itm_yy7vitrrhe5z",
+          "label": "Voyeurism",
+          "description": "Roleplay involving deriving enjoyment from observing others performing sexual acts",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_3ot5h80408",
+          "label": "Giving"
+        },
+        {
+          "id": "mode_fmw6gtggv6",
+          "label": "Receiving"
+        }
+      ],
+      "column": 3,
+      "order": 1
+    },
+    {
+      "id": "cat_6zl33sgoi2",
+      "name": "Pain",
+      "modeLabels": [
+        "Giving",
+        "Receiving"
+      ],
+      "layout": "double",
+      "items": [
+        {
+          "id": "itm_55j4nzkxl4",
+          "label": "Beating",
+          "description": "Roleplay involving strikes with hands, fists, feet, or objects intended to cause pain",
+          "defaultState": null
+        },
+        {
+          "id": "itm_lwr361f0mm",
+          "label": "Biting",
+          "description": "Roleplay involving biting, nibbling, or being bitten",
+          "defaultState": null
+        },
+        {
+          "id": "itm_8a27g42we5",
+          "label": "Caning",
+          "description": "Roleplay involving strikes delivered with a cane or similar implement",
+          "defaultState": null
+        },
+        {
+          "id": "itm_o341r2x6a0",
+          "label": "Cutting",
+          "description": "Roleplay involving cuts, blades, or the intentional breaking of skin",
+          "defaultState": null
+        },
+        {
+          "id": "itm_fn1olodi23",
+          "label": "Flogging",
+          "description": "Roleplay involving whips, floggers, paddles, crops, or other impact implements",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ma1cw5q9uc",
+          "label": "Gagging / Choking",
+          "description": "Roleplay involving choking, airway restriction, gagging, or breath-related discomfort",
+          "defaultState": null
+        },
+        {
+          "id": "itm_k2o0amv8gf",
+          "label": "Genital Slapping",
+          "description": "Roleplay involving strikes directed at the genitals",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ecp3pikfo6",
+          "label": "Genital Torture",
+          "description": "Roleplay involving painful stimulation, restraint, or torment of the genitals",
+          "defaultState": null
+        },
+        {
+          "id": "itm_51keacan2h",
+          "label": "Hot Wax",
+          "description": "Roleplay involving the application of melted wax to the body",
+          "defaultState": null
+        },
+        {
+          "id": "itm_c5ymixa3yh",
+          "label": "Nipple Clamps",
+          "description": "Roleplay involving clamps, weights, or pressure applied to the nipples",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3v75jtvni5",
+          "label": "Pain - Light",
+          "description": "Roleplay involving mild physical pain, discomfort, or impact",
+          "defaultState": null
+        },
+        {
+          "id": "itm_3g47zkkiek",
+          "label": "Pain - Heavy",
+          "description": "Roleplay involving intense physical pain, severe impact, or extreme discomfort",
+          "defaultState": null
+        },
+        {
+          "id": "itm_td0dwreus5",
+          "label": "Scratching",
+          "description": "Roleplay involving nails, claws, or similar actions that scratch or mark the skin",
+          "defaultState": null
+        },
+        {
+          "id": "itm_2hlfct48zq",
+          "label": "Spanking",
+          "description": "Roleplay involving strikes to the buttocks, thighs, or similar areas for punishment, discipline, or pleasure",
+          "defaultState": null
+        }
+      ],
+      "modes": [
+        {
+          "id": "mode_ws5rgkudqx",
+          "label": "Giving"
+        },
+        {
+          "id": "mode_z9g91tjkki",
+          "label": "Receiving"
+        }
+      ],
+      "column": 4,
+      "order": 3
+    },
+    {
+      "id": "cat_ke9p0m0a820r",
+      "name": "Player Focus",
+      "modeLabels": [
+        "Self"
+      ],
+      "modes": [
+        {
+          "id": "mode_liztxvja820r",
+          "label": "Self"
+        }
+      ],
+      "layout": "auto",
+      "column": 1,
+      "order": 2,
+      "items": [
+        {
+          "id": "itm_0w0wlb6nxyzs",
+          "label": "Monogamy",
+          "description": "The practice of having only one romantic or sexual partner at a time",
+          "defaultState": null
+        },
+        {
+          "id": "itm_amd5m2xoxzg8",
+          "label": "Polyamorous",
+          "description": "The practice of having multiple romantic or sexual partners simultaneously",
+          "defaultState": null
+        },
+        {
+          "id": "itm_1w3u5phk8zjs",
+          "label": "Character RP",
+          "description": "Storytelling focused on character personality, relationships, growth, motivations, and personal experiences",
+          "defaultState": null
+        },
+        {
+          "id": "itm_yiodcoocb666",
+          "label": "Erotic RP - Casual",
+          "description": "Sexual scenes without a focus on emotional connection or romance",
+          "defaultState": null
+        },
+        {
+          "id": "itm_dnsv6scrni8d",
+          "label": "Erotic RP - Meaningful",
+          "description": "Sexual scenes with a focus on character connection or development",
+          "defaultState": null
+        },
+        {
+          "id": "itm_f8w1ct9bxzvn",
+          "label": "Romance RP",
+          "description": "Storytelling that explores romantic, passionate, or deeply emotional scenarios",
+          "defaultState": null
+        },
+        {
+          "id": "itm_a0d3h8gxbnc9",
+          "label": "Server Plot RP",
+          "description": "Storytelling centered around major events, conflicts, or narratives that shape the world and its characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_cde1b79zhbwk",
+          "label": "Slice-of-Life RP",
+          "description": "Storytelling focused on everyday interactions, personal moments, and character development",
+          "defaultState": null
+        },
+        {
+          "id": "itm_tjtr7rd6hci8",
+          "label": "Tavern RP",
+          "description": "Casual social roleplay centered around conversation, drinks, entertainment, and meeting other characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_hn2wyffdctvn",
+          "label": "PvE RP",
+          "description": "Storytelling centered around characters overcoming environmental challenges, creatures, quests, or world-driven threats",
+          "defaultState": null
+        },
+        {
+          "id": "itm_tz2i6kkld5tf",
+          "label": "PvP RP",
+          "description": "Storytelling centered around conflict, rivalry, competition, or combat between player characters",
+          "defaultState": null
+        }
+      ]
+    },
+    {
+      "id": "cat_fp549ch8rk1s",
+      "name": "RP Themes / Types",
+      "modeLabels": [
+        "Giving",
+        "Receiving"
+      ],
+      "modes": [
+        {
+          "id": "mode_0byto970rk1s",
+          "label": "Giving"
+        },
+        {
+          "id": "mode_1fsjgk34kndj",
+          "label": "Receiving"
+        }
+      ],
+      "layout": "double",
+      "column": 1,
+      "order": 3,
+      "items": [
+        {
+          "id": "itm_1wjaitulv0l5",
+          "label": "Capture - Long",
+          "description": "Extended roleplay involving pursuit, capture, captivity, and its ongoing consequences",
+          "defaultState": null
+        },
+        {
+          "id": "itm_an60x8zbeyup",
+          "label": "Capture - Short",
+          "description": "Brief roleplay involving pursuit, capture, or temporary captivity",
+          "defaultState": null
+        },
+        {
+          "id": "itm_ft602zqpt7wh",
+          "label": "Conflict / Antag",
+          "description": "Storytelling centered around opposition, rivalry, hostility, or character-driven conflict",
+          "defaultState": null
+        },
+        {
+          "id": "itm_6sqpm8k6s8ik",
+          "label": "Death",
+          "description": "Roleplay involving character death or the possibility of permanent character death",
+          "defaultState": null
+        },
+        {
+          "id": "itm_5u9j451j9jlb",
+          "label": "Gore",
+          "description": "Roleplay involving graphic descriptions of injury, blood, or bodily harm",
+          "defaultState": null
+        },
+        {
+          "id": "itm_hb1nlcjudg1c",
+          "label": "Maiming",
+          "description": "Roleplay involving lasting physical injury, disfigurement, or loss of function",
+          "defaultState": null
+        },
+        {
+          "id": "itm_zc9yyjrydfj0",
+          "label": "Marking",
+          "description": "Roleplay involving scars, brands, tattoos, collars, magical marks, or other forms of lasting identification",
+          "defaultState": null
+        },
+        {
+          "id": "itm_fihz413zuryj",
+          "label": "Slavery E/RP",
+          "description": "Roleplay involving ownership, servitude, obedience, or master/slave dynamics",
+          "defaultState": null
+        },
+        {
+          "id": "itm_lcn8zrthslk5",
+          "label": "Stalking (IC)",
+          "description": "Roleplay involving tracking, watching, following, or obsessive in-character pursuit",
+          "defaultState": null
+        },
+        {
+          "id": "itm_4boy2w55vhgf",
+          "label": "Thievery",
+          "description": "Roleplay involving theft, pickpocketing, burglary, or stealing from other characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_30h7mwdesyh4",
+          "label": "Torture",
+          "description": "Roleplay involving the infliction of physical, mental, or emotional suffering",
+          "defaultState": null
+        },
+        {
+          "id": "itm_dki01lj9xcnn",
+          "label": "Vore",
+          "description": "Roleplay involving characters being consumed, swallowed, or devoured",
+          "defaultState": null
+        },
+        {
+          "id": "itm_z62t8stxvpnt",
+          "label": "White Hat",
+          "description": "Roleplay focused on heroic actions, helping others, and doing what is morally right, regardless if there’s a particular victim",
+          "defaultState": null
+        },
+        {
+          "id": "itm_5ctjt5w0vq3f",
+          "label": "White Knight",
+          "description": "Roleplay focused on rescuing, protecting, or defending others from harm, almost always focused on saving a victim",
+          "defaultState": null
+        }
+      ]
+    },
+    {
+      "id": "cat_tuja5iw0v0bl",
+      "name": "Couplings",
+      "modeLabels": [
+        "Self"
+      ],
+      "modes": [
+        {
+          "id": "mode_ro2h7s5pv0bl",
+          "label": "Self"
+        }
+      ],
+      "layout": "auto",
+      "column": 2,
+      "order": 2,
+      "items": [
+        {
+          "id": "itm_ec5h667yveh5",
+          "label": "One-on-One",
+          "description": "Roleplay involving two characters as the primary participants",
+          "defaultState": null
+        },
+        {
+          "id": "itm_o07ini9kvlhv",
+          "label": "Threesomes",
+          "description": "Roleplay involving three characters participating together in a shared scene",
+          "defaultState": null
+        },
+        {
+          "id": "itm_cdujq3cdvuvc",
+          "label": "Gangbangs",
+          "description": "Roleplay involving one character as the focus of interactions with multiple other characters",
+          "defaultState": null
+        },
+        {
+          "id": "itm_dau9me5ew2zf",
+          "label": "Orgies",
+          "description": "Roleplay involving multiple characters participating together in a shared group scene",
+          "defaultState": null
+        }
+      ]
+    }
+  ],
+  "displaySettings": {
+    "columnCount": 4,
+    "headerTextPt": 9.5,
+    "bodyTextPt": 11,
+    "modeLabelTextPt": 10,
+    "columnWidthPx": 330,
+    "columnGapPx": 45,
+    "outerColumnPaddingPx": 5,
+    "categoryGapPx": 25,
+    "headerHeightPx": 20,
+    "bodyLineHeightPx": 22,
+    "pipSizePx": 11,
+    "pairedPipGapPx": 16,
+    "titlebarPaddingTopPx": 20,
+    "titlebarPaddingBottomPx": 30,
+    "pipGapPx": 4,
+    "categoryHeaderTitleColor": "#A65EA6",
+    "bodyTextPaddingLeftPx": 1
+  },
+  "projectVersion": "3.12.2-layout-geometry",
+  "projectRevision": 168,
+  "generatedAt": "2026-05-31T16:03:01.438Z"
+}
