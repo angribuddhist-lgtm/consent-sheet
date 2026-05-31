@@ -532,12 +532,6 @@
       "layout": "double",
       "items": [
         {
-          "id": "itm_yp6jy3rlbstg",
-          "label": "Age Gap",
-          "description": "Roleplay involving characters with a significant age difference",
-          "defaultState": null
-        },
-        {
           "id": "itm_sajath4d2l",
           "label": "Breath Play",
           "description": "Roleplay involving restriction, control, or manipulation of breathing",
@@ -836,23 +830,29 @@
       "id": "cat_fp549ch8rk1s",
       "name": "RP Themes / Types",
       "modeLabels": [
-        "Giving",
-        "Receiving"
+        "Aggressor",
+        "Target"
       ],
       "modes": [
         {
           "id": "mode_0byto970rk1s",
-          "label": "Giving"
+          "label": "Aggressor"
         },
         {
           "id": "mode_1fsjgk34kndj",
-          "label": "Receiving"
+          "label": "Target"
         }
       ],
       "layout": "double",
       "column": 1,
       "order": 3,
       "items": [
+        {
+          "id": "itm_i9o8l4tpgks0",
+          "label": "Age Gap",
+          "description": "Roleplay involving characters with a significant age difference",
+          "defaultState": null
+        },
         {
           "id": "itm_1wjaitulv0l5",
           "label": "Capture - Long",
@@ -1001,7 +1001,7 @@
     "categoryHeaderTitleColor": "#A65EA6",
     "bodyTextPaddingLeftPx": 1
   },
-  "projectVersion": "3.12.2-layout-geometry",
-  "projectRevision": 168,
-  "generatedAt": "2026-05-31T16:03:01.438Z"
+  "projectVersion": "3.12.4-tooltip-size",
+  "projectRevision": 170,
+  "generatedAt": "2026-05-31T17:16:03.201Z"
 }
